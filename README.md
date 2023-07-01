@@ -62,7 +62,7 @@ Prettier (extensión de VS) es una herramienta de formateo de código que se uti
 ```tsx
    // Settings a utilizar.
 
-   "editor.wordWrap": "on",
+    "editor.wordWrap": "on",
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.formatOnSave": true,
 	"prettier.singleQuote": true,
