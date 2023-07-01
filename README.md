@@ -55,6 +55,23 @@
    }
    ```
 
+## **Formateo de código PRETTIER**
+
+Prettier (extensión de VS) es una herramienta de formateo de código que se utiliza para mantener la consistencia en el estilo de escritura del código en un proyecto. Automáticamente ajusta y reorganiza el código fuente según un conjunto de reglas predefinidas, lo que ayuda a garantizar una apariencia uniforme en todo el código y facilita la lectura y comprensión del mismo.
+
+```tsx
+   // Settings a utilizar.
+
+   "editor.wordWrap": "on",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.tabWidth": 3,
+	"prettier.trailingComma": "all",
+	"prettier.useTabs": true,
+```
+
 ## Usar Linter
 
 -  El linter nos permite definir una serie de reglas las cuales todo el equipo debe de seguir para tener un código mas limpio.
